@@ -1,0 +1,63 @@
+.userMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.85rem;
+
+    max-width: 70% !important;
+    padding: 0.5rem 1rem;
+
+    border-radius: 0.45rem;
+    margin: 0rem 1rem;
+
+}
+
+.userMessage.mineMessage {
+    align-self: flex-end;
+}
+
+.userMessage.friendMessage {
+    align-self: flex-start;
+    flex-direction: row-reverse;
+}
+
+.userMessage.mineMessage > .messageText {
+    background-color: #118A7E;
+    border-radius: 25px 25px 25px 25px / 30px 30px 30px 30px;
+    color: white;
+
+}
+
+.userMessage.userMessage.friendMessage > .messageText {
+    background-color: #ddd9d1;
+    border-radius: 25px 25px 25px 25px / 30px 30px 30px 30px;
+}
+
+.messageText {
+    padding: 0.75rem 0.85rem;
+    border-radius: 0.45rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    max-width: 100%;
+    min-width: 20%;
+
+    word-break: break-all;  /*ovo je pravilo problem!*/
+}
+
+.userContainer {
+    align-self: flex-start;
+    padding-top: 0.25rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chatUserImg {
+    border: 2px solid goldenrod;
+}
+
+.chatUsername {
+    font-size: 12px;
+}

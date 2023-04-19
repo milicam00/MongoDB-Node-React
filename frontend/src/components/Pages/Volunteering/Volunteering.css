@@ -1,0 +1,22 @@
+.h2{
+    font-size: medium;
+    text-align: left;
+}
+
+.forma{
+    height: 550px;
+    width: 330px;
+    background-color: #3BB19B;
+    position: relative;
+    top: 100px;
+    left:70px;
+    right:100px;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:17px;
+    padding: 20px;
+    
+}
+.glavni{
+    min-height: 1000px;
+}

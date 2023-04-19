@@ -1,0 +1,19 @@
+.h2{
+    font-size: medium;
+    text-align: left;
+}
+
+.forma1{
+    height: 550px;
+    width: 330px;
+    background-color: #75bca7;
+    position: relative;
+    top: 10px;
+    left: 250px;
+    right: 300px;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:17px;
+   padding: 15px;
+    
+}

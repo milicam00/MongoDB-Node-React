@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+
+ .contact, .wantToDonate, 
+.volunteering, .help, .donations,
+.alldonations{
+  display: flex;
+  height: 90vh;
+
+ 
+
+  font-size: 2rem;
+  image-orientation: inherit;
+  background-size:cover;
+  width: 100%;
+  overflow: hidden;
+}
